@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(34, 29, 48);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+  
+  width: 400px;
+  border: 3px solid #ffffff;
+  border-radius: 5px;
+  align-items: center;
+  background-color: #131417;
+  /* padding: 10px 40px; */
+}
+
+.main {
+    background-color: #0a0a0c;
+    margin: 10px 40px;
+    width: 300px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.top img {
+  width: 200px;
+  height: 280px;
+}
+
+.details {
+  text-align: center;
+  margin-top: 7px;
+}
+
+.details h2 {
+  color: #fff;
+}
+
+.work {
+  font-size: 12px;
+  color: rgb(160, 160, 65);
+  font-weight: 600;
+  padding-bottom: 7px;
+}
+
+.details a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+  margin-bottom: 7px;
+}
+
+.buttons {
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+    margin-top: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  /* font-weight: 600; */
+  cursor: pointer;
+}
+
+.twitter {
+  background-color: #1d9bf0;
+  color: #fff;
+  font-size: 14px;
+}
+.instagram {
+  /* background-color: #c72e8f; */
+  margin-left: 7px;
+  /* border: 1px solid #c72e8f; */
+  font-size: 14px;
+  color: black;
+}
+
+.svg {
+  height: 30px;
+  width: 30px;
+}
+
+.btn img {
+  margin-bottom: -5px;
+  margin-left: 5px;
+  height: 20px;
+  width: 20px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 40px 0px 40px;
+    color: #fff;
+    
+}
+
+
+.about p{
+    font-size: 12px;
+}
+
+.footer {
+    display: flex;
+    padding: 10px;
+    background-color: black;
+    width: 100%;
+    margin-top: 20px;
+    
+    justify-content: center;
+}
+
+.footer img {
+    height: 30px;
+    color: #fff;
+    margin: 5px;
+    padding: 2px;
+}
